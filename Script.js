@@ -1,0 +1,1 @@
+const form = document.getElementById("formContato"); const mensagem = document.getElementById("mensagem"); form.addEventListener("submit", function(event){ event.preventDefault(); mensagem.innerHTML = "Mensagem enviada com sucesso!"; mensagem.style.color = "green"; form.reset(); });
